@@ -1,0 +1,53 @@
+/* Doc Tags */
+
+
+/* Class Tags */
+.unclicked{
+    
+    background-color: blue;
+}
+.clicked{
+    background-color: lightblue;
+    filter: blur(10);
+    opacity: 0.8;
+}
+.numButtons{
+    color: white;
+    margin: 0.2rem 0;
+    padding: 5rem;
+    width: 10vw;
+}
+.zeroButton{
+    width: 30.5vw;
+}
+.topMultiple{
+    padding: 1.5rem 5rem;  
+}
+.sideBtn{
+    position: absolute;
+}
+.numButtons:hover{
+    background-color: none;
+}
+.plus{
+    top: 3.8rem;
+    padding-bottom: 18.8rem;
+}
+.equals{
+    bottom: 3.9rem;
+    padding-top: 18.8rem;
+}
+.sum{
+    width: 35vw;
+    text-align: center;
+}
+
+/* ID Tags */
+#buttons{
+    text-align: center;
+    margin-top: 2rem;
+}
+#calculation{
+    margin-left: 10rem;  
+    text-align: center;
+}
