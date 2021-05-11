@@ -31,15 +31,18 @@
 }
 .plus{
     top: 3.8rem;
-    padding-bottom: 18.8rem;
+    padding: 10rem 0;
 }
 .equals{
     bottom: 3.9rem;
-    padding-top: 18.8rem;
+    padding: 10rem 0;
 }
 .sum{
     width: 35vw;
     text-align: center;
+}
+.button-wrapper{
+    display: flex;
 }
 
 /* ID Tags */
@@ -51,3 +54,19 @@
     margin-left: 10rem;  
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .numButtons{
+        padding: 1rem;
+    }
+    .plus{
+        padding: 3.5rem 0;
+    }
+    .equals{
+        bottom: 31.5rem;
+        padding: 3.5rem 0;    
+    }
+    #calculation{
+        margin-left: 2.5rem;
+    }
+  }
